@@ -9,24 +9,16 @@
 
     <title>Letter Music</title>
     <style>
-        h1{
+        .header{
             background-color: #0e1529;
         }
-        footer{
-            position: absolute;
-            width: 100%;
-            bottom: 0px;
-        }
-        footer p{
-            margin: 0px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
+       
     </style>
   </head>
   <body>
-    <div>
+    <div class="header d-flex justify-content-around align-items-center py-1">
         <h1 class="text-center text-white py-2">Music <span class="text-info">Letter</span></h1>
+        <span class="text-muted fw-lighter">By: Alejandro Nes</span>
     </div>
     <!-- cuerpo del sitio -->
     <div class="container mt-4">
@@ -62,10 +54,6 @@
         </div>
     </div>
  
-    <footer class="d-flex justify-content-around border">
-       <p>By AlejandroNes</p>
-       <p>2022</p>
-    </footer>
     <script src="./js/app.js" type="module"></script>
   </body>
 </html>
